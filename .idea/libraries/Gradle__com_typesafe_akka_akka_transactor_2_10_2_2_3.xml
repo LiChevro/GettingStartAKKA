@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.akka:akka-transactor_2.10:2.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-transactor_2.10/2.2.3/133402d8ba07c03b07c320b9fb67c6f6c78595ce/akka-transactor_2.10-2.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-transactor_2.10/2.2.3/7568dd32dba55086ca927503d7ca2a9fd71b798a/akka-transactor_2.10-2.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

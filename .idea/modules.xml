@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GettingStartAKKA.iml" filepath="$PROJECT_DIR$/.idea/modules/GettingStartAKKA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GettingStartAKKA_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GettingStartAKKA_main.iml" group="GettingStartAKKA" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GettingStartAKKA_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GettingStartAKKA_test.iml" group="GettingStartAKKA" />
+    </modules>
+  </component>
+</project>

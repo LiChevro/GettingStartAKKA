@@ -1,0 +1,39 @@
+group 'ink.chevro'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.11', version: '2.4.10'
+
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.12'
+
+    /*添加akka http*/
+    compile group: 'com.typesafe.akka', name: 'akka-http_2.12',   version: '10.1.0'
+    compile group: 'com.typesafe.akka', name: 'akka-stream_2.12', version: '2.5.11'
+
+    /*添加事务管理*/
+    // https://mvnrepository.com/artifact/com.typesafe.akka/akka-agent
+    compile group: 'com.typesafe.akka', name: 'akka-agent_2.11', version: '2.4.7'
+    // https://mvnrepository.com/artifact/com.typesafe.akka/akka-transactor
+    compile group: 'com.typesafe.akka', name: 'akka-transactor_2.10', version: '2.2.3'
+
+    /*Junit单元测试*/
+    // https://mvnrepository.com/artifact/junit/junit
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    /*单元测试工具*/
+    // https://mvnrepository.com/artifact/com.typesafe.akka/akka-testkit
+    testCompile group: 'com.typesafe.akka', name: 'akka-testkit_2.12', version: '2.4.20'
+
+}
